@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<title> Registration or Sign Up form in HTML CSS | CodingLab </title>-->
+    <link rel="stylesheet" href="style_register.css">
+   </head>
+<body>
+  <!-- <nav id="navbar">
+    <div id="logo">
+        <img src="./image/logo.jfif" alt="myportfolio.com">
+
+    </div>
+    <ul>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#services-container">My Skills</a></li>
+        <li class="item"><a href="#client-section">My Work</a></li>
+        <li class="item"><a href="#contact">Contact Me</a></li>
+    </ul>
+</nav> -->
+  <div class="wrapper">
+    <h2>Registration</h2>
+    <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+    <!-- <form action="#"> -->
+      <!-- <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post"></form> -->
+      <div class="input-box" id="name">
+        <input type="text" placeholder="Enter your name" name="fname" required><b><span class="formerror"></span></b>
+      </div>
+      <div class="input-box" id="email">
+        <input type="email" placeholder="Enter your email" name="femail" required><b><span class="formerror"></span></b>
+      </div>
+      <div class="input-box" id="pass">
+        <input type="password" placeholder="Create password" name="fpass" required><b><span class="formerror"></span></b>
+      </div>
+      <div class="input-box" id="cpass">
+        <input type="password" placeholder="Confirm password" name="fcpass" required><b><span class="formerror"></span></b>
+      </div>
+      <div class="policy">
+        <input type="checkbox">
+        <h3>I accept all terms & condition</h3>
+      </div>
+      <div class="input-box button">
+        <input type="Submit" value="Register Now">
+      </div>
+      <div class="text">
+        <h3>Already have an account? <a href="#">Login now</a></h3>
+      </div>
+    </form>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
