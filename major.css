@@ -4,6 +4,9 @@ body
     padding:0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:#146be6;
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+    background-size:cover
 }
 header
 {
@@ -82,6 +85,21 @@ li a.logout
     background-color: red;
     color: white;
     border-bottom: none;
+  }
+ .scroll{
+   font-size: 50px;
+   /* margin-top:20%; */
+}
+  #left{
+    position:absolute;
+    top:30%;
+    right:95%;
+  }
+  
+  #right{
+    position:absolute;
+    top:30%;
+    left:95%;
   }
 @media(max-width:800px)
 {
