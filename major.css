@@ -3,53 +3,48 @@ body
     margin:0;
     padding:0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:#146be6;
+    
     background-image: url("back.png");
     background-repeat: no-repeat;
     background-size:cover
 }
 header
 {
-    background-color:aquamarine;
+    background-color:#C1E5ED;
 }
-a{
-    color: white;
-}
+
 .main-nav
 {
-    height:44px;
-    border-color:black;
+    height:45px;
+    border-color:1px solid #000000;
     border-style:solid;
 }
 .logo
 {
     color:black;
     line-height:40px;
-    font-size:20px;
+    font-size:25px;
     font-weight:bold;
     text-decoration: none;
     margin-left:30px;
     font-family:"AstroSpace",sans-serif;
-    padding:2px;
+    padding:1px;
 
 }
-/* .navlinks li .image img
-{
-    width:40px;
-} */
+
 
 .navlinks
 {
     list-style:none;
     float:right;
     line-height:40px;
-    margin:3px;
+    margin:1px;
 
 }
 .navlinks li
 {
     display:inline-block;
-    margin: 0px 5px;
+    margin: 0px 6px;
 }
 .navlinks li img
 {
@@ -62,8 +57,7 @@ a{
     text-decoration:none;
     font-size:18px;
     text-transform: uppercase;
-    transition:  all 0.3s linear 0s;
-    padding:2px;
+   
     margin:2px;
 }
 .navlinks li a:hover
@@ -74,21 +68,22 @@ a{
 }
 li a.logout 
 {
-    background-color: blue;
-    /* padding: 8px 20px; */
-    padding:6px;
-    border-radius: 50px;
+    background-color: #4CDFFe;
+ 
+    padding:5px;
+    border-radius: 40px;
     transition: all 0.3s linear 0s;
   }
 
   li a.logout:hover {
-    background-color: red;
+    background-color: rgb(73, 11, 219);;
     color: white;
     border-bottom: none;
   }
- .scroll{
-   font-size: 50px;
-   /* margin-top:20%; */
+ /* .scroll{
+   font-size: 60px;
+   
+   
 }
   #left{
     position:absolute;
@@ -99,8 +94,8 @@ li a.logout
   #right{
     position:absolute;
     top:30%;
-    left:95%;
-  }
+    left:89%;
+  } */
 @media(max-width:800px)
 {
     .navlinks{
@@ -129,7 +124,7 @@ li a.logout
     padding:14px;
     max-width:960px;
     width:100%;
-    margin: 60px auto ;
+    
     display:flex;
     flex-flow:row wrap;
     justify-content:center;
@@ -140,12 +135,13 @@ li a.logout
 .container
 {
     flex:1;
-    border:1px solid #666;
-    margin:4px;
+    border:1px solid black;
     padding:10px;
     background:white;
     height:330px;
-    margin-left:40px;
+    margin-right:10px;
+    margin-left:10px;
+    background-color:#C4C4C4;
     
     
 }
@@ -155,6 +151,10 @@ li a.logout
     text-align: center;
 }
 
+.columns .scroll img
+{
+    margin-top:160px;
+}
 
 
 section .login
@@ -198,9 +198,10 @@ section .login
 }
 .columns .container button:hover
 {
-    background-color:red;
+    background-color:rgb(73, 11, 219);
     color: white;
     border-bottom: none;
+    transform: rotate(360deg);
 }
 .login
 {
@@ -209,16 +210,18 @@ section .login
 .submit input:hover
 {
     
-    color: red;
+    color: rgb(73, 11, 219);
     border-bottom: none;
     transition: all 0.3s linear 0s;
     cursor:pointer;
+    transform: rotate(360deg);
 }
 .clear input:hover
 {
 
-    color: red;
+    color: rgb(73, 11, 219);
     border-bottom: none;
     transition: all 0.3s linear 0s;
     cursor:pointer;
+    transform: rotate(360deg);
 }
