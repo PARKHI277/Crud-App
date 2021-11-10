@@ -27,7 +27,7 @@ nav{
 }
 .navtext{
 color:#0074B7;
-
+font-size:26px;
 margin-left:20px;
 }
 
@@ -88,8 +88,22 @@ width:20%;
 
 }
 
-#side{
+#sidea
+{
     position: absolute;
     top:2px;
     left:1029px;
+    text-decoration: none;
+}
+#sideb{
+    position: absolute;
+    top:2px;
+    left:1095px;
+    text-decoration: none;
+}
+#sidec{
+    position: absolute;
+    top:2px;
+    left:1175px;
+    text-decoration: none;
 }
