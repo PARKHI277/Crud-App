@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    background-color:#c4a1a2;
+    background-image: url("./img_front.jpg");
+    background-size:cover;
+    background-position: -300px 0;
+    background-repeat: no-repeat;
+    
+}
+.mytext{
+color:#ffffff;
+position:absolute;
+left:250px;
+top:150px;
+text-align: center;
+}
+nav{
+    background-color :#C1E5ED;
+    
+
+}
+.navtext{
+color:#0074B7;
+
+margin-left:20px;
+}
+
+.formsignup{
+    width: 50%;
+    background-color: #4CDFFF;
+    margin-left: 50%;
+    height: 100vh;
+}
+form{
+    position: absolute;
+    background-color: #73E6FF;
+    width: 40%;
+    height: 60%;
+    top: 30%;
+    left: 55%;
+
+}
+.form-control, .btn{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 50px;
+    border:none;
+    text-align:center;
+}
+.heading{
+    color:white;
+    position: absolute;
+    left: 44%;
+    top:3%;
+}
+.footerr{
+    color:white;
+    position: absolute;
+    left: 27%;
+    top:70%;
+}
+.btn{
+    color: white;
+    background-color: #26abff;
+    border:none;
+    border-radius:50px;
+    
+}
+#li{
+position: absolute;
+left:17%;
+bottom:55%;
+font-size:25px;
+width:20%;
+
+}
+#gsi{
+    font-size:15px;
+    width:50%;
+    position: absolute;
+
+}
+
+#side{
+    position: absolute;
+    top:2px;
+    left:1029px;
+}
